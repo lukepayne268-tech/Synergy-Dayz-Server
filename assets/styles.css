@@ -1,0 +1,34 @@
+/* Hero background */
+.hero {
+    height: 100vh;
+    background: url('hero.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+/* Text inside hero */
+.hero div {
+    position: relative;
+    z-index: 2;
+}
+
+/* General styling */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    border-left: 4px solid #c0392b;
+    padding-left: 10px;
+}
+
+.list-group-item {
+    backdrop-filter: blur(3px);
+}
