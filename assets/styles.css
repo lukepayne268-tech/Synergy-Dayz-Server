@@ -12,6 +12,14 @@
     background: rgba(0, 0, 0, 0.55);
 }
 
+
+
+/* Navbar logo resize */
+#logo {
+    width: 45px;
+    height: auto;
+}
+
 /* Text inside hero */
 .hero div {
     position: relative;
