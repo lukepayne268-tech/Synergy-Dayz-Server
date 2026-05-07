@@ -39,6 +39,36 @@
     margin: 0;
 }
 
+/*discord widget*/
+.discord-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 0;
+  flex-wrap: wrap; /* prevents breaking on mobile */
+}
+
+.discord-widget-container {
+  max-width: 360px;
+}
+
+.discord-content {
+  max-width: 400px;
+}
+
+.discord-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #5865F2;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
 /* General styling */
 body {
     font-family: 'Roboto Condensed', sans-serif;
